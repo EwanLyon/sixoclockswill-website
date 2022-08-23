@@ -28,10 +28,6 @@
 </p>
 
 <svelte:component this={Carousel} let:loaded bind:this={carousel} autoplay autoplayDuration={6000}>
-	<!-- <img src="/media/Gameplay01.png" alt="Gameplay of Six O'clock Swill" />
-	<img src="/media/Gameplay04.png" alt="Gameplay of Six O'clock Swill" />
-	<img src="/media/Gameplay02.png" alt="Gameplay of Six O'clock Swill" />
-	<img src="/media/Gameplay03.png" alt="Gameplay of Six O'clock Swill" /> -->
 	{#each gameplayImages as src, imageIndex (src)}
 		<div class="img-container">
 			{#if loaded.includes(imageIndex)}

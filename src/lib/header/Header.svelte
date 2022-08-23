@@ -12,6 +12,9 @@
 			<li class:active={$page.url.pathname === '/team'}>
 				<a sveltekit:prefetch href="/team">The Team</a>
 			</li>
+			<li class:active={$page.url.pathname === '/press-kit'}>
+				<a sveltekit:prefetch href="/press-kit">Press Kit</a>
+			</li>
 		</ul>
 	</nav>
 </header>
