@@ -1,5 +1,9 @@
 [
-	{ "name": "Ewan Lyon", "role": "Programmer / Designer" },
+	{
+		"name": "Ewan Lyon",
+		"role": "Programmer / Designer",
+		"social": "https://twitter.com/Clubwhom"
+	},
 	{ "name": "Ryan Chessum", "role": "Programmer / Designer" },
 	{ "name": "Chris Wiltshire", "role": "Programmer / Designer" },
 	{ "name": "Ryan Sharp", "role": "Programmer" },

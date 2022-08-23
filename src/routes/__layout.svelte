@@ -17,14 +17,48 @@
 		font-family: 'Shadows Into Light';
 		font-style: normal;
 		font-weight: 400;
-		src: url('/media/ShadowsIntoLight-Regular.ttf') format('truetype');
+		src: url('/media/fonts/ShadowsIntoLight-Regular.ttf') format('truetype');
 	}
 
 	@font-face {
 		font-family: 'Boogaloo';
 		font-style: normal;
 		font-weight: 400;
-		src: url('/media/Boogaloo-Regular.ttf') format('truetype');
+		src: url('/media/fonts/Boogaloo-Regular.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Roboto Slab';
+		font-style: normal;
+		src: url('/media/fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Noto Serif';
+		font-style: normal;
+		font-weight: 400;
+		src: url('/media/fonts/NotoSerif-Regular.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Noto Serif';
+		font-style: italic;
+		font-weight: 400;
+		src: url('/media/fonts/NotoSerif-Italic.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Noto Serif';
+		font-style: normal;
+		font-weight: 700;
+		src: url('/media/fonts/NotoSerif-Bold.ttf') format('truetype');
+	}
+
+	@font-face {
+		font-family: 'Noto Serif';
+		font-style: italic;
+		font-weight: 700;
+		src: url('/media/fonts/NotoSerif-BoldItalic.ttf') format('truetype');
 	}
 
 	main {
