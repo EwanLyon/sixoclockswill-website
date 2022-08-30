@@ -11,7 +11,9 @@
 </script>
 
 <svelte:head>
-	<title>Team - Six O'clock Swill</title>
+	<title>The Team - Six O'clock Swill</title>
+	<meta content="The Team - Six O'clock Swill" property="og:title" />
+	<meta content="The team behind Six O'clock Swill" property="og:description" />
 </svelte:head>
 
 <section>

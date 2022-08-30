@@ -20,6 +20,8 @@
 
 <svelte:head>
 	<title>Six O'clock Swill</title>
+	<meta content="Six O'clock Swill" property="og:title" />
+	<meta content="The website for the Six O'clock Swill game!" property="og:description" />
 </svelte:head>
 
 <p id="tag-line">Get ready. The Six O'clock Swill is about to begin.</p>

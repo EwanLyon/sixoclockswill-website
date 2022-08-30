@@ -5,6 +5,7 @@
 
 <svelte:head>
 	<title>Press Kit - Six O'clock Swill</title>
+	<meta content="Press Kit - Six O'clock Swill" property="og:title" />
 </svelte:head>
 
 <img id="hero-image" src={Logo} alt="Six O'clock Swill logo" />
