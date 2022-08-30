@@ -2,12 +2,17 @@
 	export let name: string;
 	export let description: string;
 	export let image: string;
+	export let social: string | undefined = undefined;
 </script>
 
 <div class="team-member">
 	<img src={image} alt={`Photo of ${name}`} />
 	<span>{name}</span>
-	<p>{description}</p>
+	{#if social}
+		<p><a href={social} target="_blank" rel="noopener noreferrer">{description}</a></p>
+	{:else}
+		<p>{description}</p>
+	{/if}
 </div>
 
 <style>
@@ -37,4 +42,9 @@
 	.team-member p {
 		margin-top: 0.1em;
 	}
+
+	a {
+		color: black;
+	}
+
 </style>

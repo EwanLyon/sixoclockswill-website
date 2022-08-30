@@ -18,8 +18,8 @@
 		<section>
 			<h3>Website</h3>
 			<p>
-				<a href="http://sixoclockswill.com.au/" target="_blank" rel="noopener noreferrer"
-					>SixOclockSwill.com.au</a
+				<a href="https://sixoclockswill.net/" target="_blank" rel="noopener noreferrer"
+					>SixOclockSwill.net</a
 				>
 			</p>
 		</section>
@@ -28,16 +28,16 @@
 			<p>March, 2022</p>
 		</section>
 		<section>
-			<h3>Platform</h3>
+			<h3>Platforms</h3>
 			<p>PC, Mac</p>
 		</section>
 		<section>
 			<h3>Socials</h3>
 			<p>
 				Twitter <a
-					href="https://twitter.com/sixoclockswillgame"
+					href="https://twitter.com/6oclockSwill"
 					target="_blank"
-					rel="noopener noreferrer">@SixOclockSwillGame</a
+					rel="noopener noreferrer">@6oclockSwill</a
 				>
 			</p>
 		</section>
@@ -45,11 +45,19 @@
 	<article id="description">
 		<section>
 			<h2>About</h2>
-			<p>Six O'clock Swill is a physics based bartender simulator based in 1950s Melbourne.</p>
+			<p>
+				Six O'clock Swill is a physics based bartender simulator based in 1950s Melbourne. Attempt
+				to serve drinks to ever increasing demanding customers since your reputation is on the line.
+			</p>
 		</section>
 		<section>
 			<h3>History</h3>
-			<p>Six O'clock Swill is... TBA</p>
+			<p>
+				Six O'clock Swill was developed as a capstone project at Swinburne University. The team
+				comprises of 3 Designers / Programmers, 1 dedicated Programmer, 3 Artists, 1 Sound Designer
+				and music composed by an artist from Polytech Melbourne. TO find out more about the team
+				check out the <a href="/team">team page!</a>
+			</p>
 		</section>
 	</article>
 </div>
@@ -100,27 +108,19 @@
 		<h2>Contact</h2>
 		<h3>Twitter</h3>
 		<p>
-			<a href="https://twitter.com/sixoclockswillgame" target="_blank" rel="noopener noreferrer"
-				>@SixOclockSwillGame</a
-			>
-		</p>
-		<h3>Tiktok</h3>
-		<p>
-			<a href="https://twitter.com/sixoclockswillgame" target="_blank" rel="noopener noreferrer"
-				>@SixOclockSwillGame</a
+			<a href="https://twitter.com/6oclockSwill" target="_blank" rel="noopener noreferrer"
+				>@6oclockSwill</a
 			>
 		</p>
 		<h3>Website</h3>
 		<p>
-			<a href="http://sixoclockswill.com.au/" target="_blank" rel="noopener noreferrer"
-				>SixOclockSwill.com.au</a
+			<a href="https://sixoclockswill.net/" target="_blank" rel="noopener noreferrer"
+				>SixOclockSwill.net</a
 			>
 		</p>
 		<h3>Email</h3>
 		<p>
-			<a href="https://twitter.com/sioclockswill" target="_blank" rel="noopener noreferrer"
-				>sixoclockswill@gmail.com</a
-			>
+			<a href="mailto:sixoclockswillgame@gmail.com">sixoclockswillgame@gmail.com</a>
 		</p>
 	</div>
 </div>
@@ -221,5 +221,25 @@
 
 	#contact h3 {
 		margin-top: 0.5em;
+	}
+
+	@media (max-width: 768px) {
+		#hero-image {
+			width: 100vw;
+			height: auto;
+		}
+
+		#footer, #images, #press-kit {
+			grid-template-columns: 100%;
+		}
+
+		#contact {
+			text-align: left;
+			padding: 0;
+		}
+
+		video {
+			width: 100%;
+		}
 	}
 </style>
