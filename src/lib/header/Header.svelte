@@ -37,6 +37,8 @@
 	nav ul {
 		display: flex;
 		justify-content: center;
+		align-items: center;
+		text-align: center;
 		gap: 2rem;
 		/* font-family: 'Shadows Into Light'; */
 		font-family: 'Boogaloo';
@@ -61,5 +63,12 @@
 
 	a:hover {
 		color: rgb(167, 167, 167);
+	}
+
+	@media (max-width: 768px) {
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
 </style>
