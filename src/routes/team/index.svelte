@@ -10,6 +10,10 @@
 	import Placeholder04Img from './Placeholder04.jpg';
 </script>
 
+<svelte:head>
+	<title>Team - Six O'clock Swill</title>
+</svelte:head>
+
 <section>
 	<h1>The Team</h1>
 	<p class="nowrap">

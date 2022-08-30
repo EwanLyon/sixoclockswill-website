@@ -18,6 +18,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Six O'clock Swill</title>
+</svelte:head>
+
 <p id="tag-line">Get ready. The Six O'clock Swill is about to begin.</p>
 
 <video id="hero-video" controls autoplay muted loop src="/media/gameplay.webm" />

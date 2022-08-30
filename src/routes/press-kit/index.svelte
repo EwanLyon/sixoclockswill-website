@@ -3,6 +3,10 @@
 	import Logo from '$lib/header/logo.png';
 </script>
 
+<svelte:head>
+	<title>Press Kit - Six O'clock Swill</title>
+</svelte:head>
+
 <img id="hero-image" src={Logo} alt="Six O'clock Swill logo" />
 <div id="press-kit">
 	<aside id="factsheet">
