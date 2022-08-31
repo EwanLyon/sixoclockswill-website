@@ -2,13 +2,43 @@
 	{
 		"name": "Ewan Lyon",
 		"role": "Programmer / Designer",
+		"image": "/media/team/Ewan.png",
 		"social": "https://twitter.com/Clubwhom"
 	},
-	{ "name": "Ryan Chessum", "role": "Programmer / Designer" },
-	{ "name": "Chris Wiltshire", "role": "Programmer / Designer" },
-	{ "name": "Ryan Sharp", "role": "Programmer" },
-	{ "name": "Adam Kelsey", "role": "Artist" },
-	{ "name": "Sayankumar Chandara Sagar", "role": "Artist" },
-	{ "name": "Alec Stewart", "role": "Artist" },
-	{ "name": "Dan Chadderton", "role": "Sound Designer" }
+	{
+		"name": "Ryan Chessum",
+		"role": "Programmer / Designer",
+		"image": "/media/team/RyanC.jpg",
+		"social": "https://twitter.com/Chessnuts"
+	},
+	{
+		"name": "Chris Wiltshire",
+		"role": "Programmer / Designer",
+		"image": "/media/team/Chris.jpg"
+	},
+	{
+		"name": "Ryan Sharp",
+		"role": "Programmer",
+		"image": "/media/team/Placeholder01.jpg"
+	},
+	{
+		"name": "Adam Kelsey",
+		"role": "Artist",
+		"image": "/media/team/Placeholder04.jpg"
+	},
+	{
+		"name": "Sayankumar Chandara Sagar",
+		"role": "Artist",
+		"image": "/media/team/Placeholder03.jpg"
+	},
+	{
+		"name": "Alec Stewart",
+		"role": "Artist",
+		"image": "/media/team/Placeholder01.jpg"
+	},
+	{
+		"name": "Dan Chadderton",
+		"role": "Sound Designer",
+		"image": "/media/team/Placeholder02.jpg"
+	}
 ]

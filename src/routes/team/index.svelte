@@ -1,13 +1,6 @@
 <script>
+	import TeamData from '$lib/team.json';
 	import TeamMember from '$lib/team/TeamMember.svelte';
-
-	import EwanImg from './Ewan.png';
-	import ChrisImg from './Chris.jpg';
-	import RyanCImg from './RyanC.jpg';
-	import Placeholder01Img from './Placeholder01.jpg';
-	import Placeholder02Img from './Placeholder02.jpg';
-	import Placeholder03Img from './Placeholder03.jpg';
-	import Placeholder04Img from './Placeholder04.jpg';
 </script>
 
 <svelte:head>
@@ -24,14 +17,9 @@
 	</p>
 
 	<div class="team-grid">
-		<TeamMember name="Ewan Lyon" image={EwanImg} description="Programmer / Designer" social="https://twitter.com/Clubwhom" />
-		<TeamMember name="Ryan Chessum" image={RyanCImg} description="Programmer / Designer" />
-		<TeamMember name="Chris Wiltshire" image={ChrisImg} description="Programmer / Designer" />
-		<TeamMember name="Ryan Sharp" image={Placeholder01Img} description="Programmer" />
-		<TeamMember name="Adam Kelsey" image={Placeholder02Img} description="Artist" />
-		<TeamMember name="Sayankumar Chandara Sagar" image={Placeholder03Img} description="Artist" />
-		<TeamMember name="Alec Stewart" image={Placeholder01Img} description="Artist" />
-		<TeamMember name="Dan Chadderton" image={Placeholder04Img} description="Sound Designer" />
+		{#each TeamData as Member}
+			<TeamMember name={Member.name} image={Member.image} description={Member.role} social={Member.social} />
+		{/each}
 	</div>
 </section>
 
