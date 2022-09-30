@@ -34,7 +34,8 @@
 	{
 		"name": "Alec Stewart",
 		"role": "Artist",
-		"image": "/media/team/Placeholder01.jpg"
+		"image": "/media/team/Placeholder01.jpg",
+		"social": "https://twitter.com/alecstustu"
 	},
 	{
 		"name": "Dan Chadderton",
