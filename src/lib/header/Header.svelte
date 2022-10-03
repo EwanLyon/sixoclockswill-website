@@ -1,10 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import logo from './logo.png';
 </script>
 
 <header>
-	<img src={logo} alt="Six O'clock Swill" />
+	<img src="/media/GameLogoHorizontal.png" alt="Six O'clock Swill" />
 
 	<nav>
 		<ul>
